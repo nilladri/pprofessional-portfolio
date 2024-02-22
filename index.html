@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+    <header class="border-b-2 fixed w-full z-10 bg-white">
+        <nav class="lg:mx-auto w-[80%] ">
+            <div class="navbar">
+                <div class="navbar-start">
+                    <div class="dropdown relative">
+                        <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M4 6h16M4 12h8m-8 6h16" />
+                            </svg>
+                        </div>
+                        <ul tabindex="0"
+                            class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52 absolute">
+                            <li class="text-xl font-bold"><a href="">HOME</a></li>
+                            <li class="text-xl font-bold"><a href="#service">SERVICE</a></li>
+                            <li class="text-xl font-bold"><a href="">SKILL</a></li>
+                            <li class="text-xl font-bold"><a href="">PROJECT</a></li>
+                            <li class="text-xl font-bold"><a href="">CONTACT</a></li>
+                        </ul>
+                    </div>
+                    <a class="btn btn-ghost text-4xl">MY PORTFOLIO</a>
+                </div>
+                <div class="navbar-center hidden lg:flex items-center">
+                    <ul class="menu menu-horizontal px-1">
+                        <li class="text-xl font-bold hover:bg-orange-400 rounded-lg"><a href="">HOME</a></li>
+                        <li class="text-xl font-bold hover:bg-orange-400 rounded-lg"><a href="#service">SERVICE</a></li>
+                        <li class="text-xl font-bold hover:bg-orange-400 rounded-lg"><a href="">SKILL</a></li>
+                        <li class="text-xl font-bold hover:bg-orange-400 rounded-lg"><a href="">PROJECT</a></li>
+                        <li class="text-xl font-bold hover:bg-orange-400 rounded-lg"><a href="">CONTACT</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
+
+    <main>
+        <!-- first Section -->
+        <section class="py-[190px]">
+
+
+            <div class="bg-white">
+                <div class="hero">
+                    <div class="flex lg:flex-row-reverse flex-col items-center  gap-24">
+                        <div class="relative">
+                            <img class="w-full h-full object-cover shadow-lg rounded-lg" src='./images/mainimage.png' />
+
+                            <img class="absolute left-[440px] top-[350px]" src="images/effect-2.svg" alt="">
+                        </div>
+                        <div class="relative">
+                            <h1 class="text-8xl font-bold">We Have <br>
+                                Design <br>
+                                Experience
+                            </h1>
+                            <p class="py-6">I design and develop services for customers of all sizes,<br> specializing
+                                in creating stylish, modern websites, web <br> services and online stores. </p>
+                            <p
+                                class="absolute bottom-[480px] transform -rotate-[20deg] text-xl text-[#959adf] border border-blue-400 px-5 py-2">
+                                Hello.</p>
+                            <img class="absolute bottom-[480px] -left-24" src="images/effect-1.svg" alt="">
+                            </p>
+                            <button class="btn bg-[#5c64cf] hover:bg-[#5c64cf] text-white">Get Started</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="service" class="mt-[190px]">
+           
+        </section>
+
+    </main>
+</body>
+
+</html>
